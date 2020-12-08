@@ -34,7 +34,7 @@
       call left(e,xm,delta,xl,yl)
       call right(e,xm,delta,xr,yr)
       do i=1,n
-         y(i)=yl(i)
+!         y(i)=yl(i)
       end do
       do i=n+1,2*n
          y(i)=yr(i-n)
